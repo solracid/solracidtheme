@@ -1,0 +1,178 @@
+/**
+ * Custom Styles from Solracid
+ **/
+
+/*HEADER MENU*/
+.menu-header {
+    margin-right: 15px;
+}
+
+.search-toggle {
+    float: right;
+    max-width: 100%;
+}
+
+.search-toggle-svg {
+    margin: 18px 0 0 0;
+    height: 31px;
+}
+
+.search_underline {
+    height: 2px;
+    width: 0;
+    background-color: blue;
+    margin: 5px auto 0px auto;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+#menu-searchform {
+    margin-top: 84px;
+    position: absolute;
+    right: 0;
+    
+    z-index: 2;
+    visibility: visible;
+}
+
+#menu-searchform input {
+    font-size: 0.8em;
+    height: 20px;
+    transition: all 0.2s ease-out;
+}
+
+.hide-menu-searchform input {
+    visibility: hidden;
+}
+
+.hide-menu-searchform .menu_searchInput {
+    width: 0;
+}
+
+.inputStyle {
+    padding: 6px;
+    border: solid 1px #0077B0;
+    outline: 0;
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #C6ECFF), to(#FFFFFF));
+    background: -moz-linear-gradient(top, #FFFFFF, #C6ECFF 1px, #FFFFFF 25px);
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}
+
+.buttonStyle {
+
+}
+
+.menu_searchInput {
+    border-radius: 7px 0 0 7px;
+    width: 333px;
+}
+
+.menu_submit {
+    border-radius: 0 7px 7px 0;
+}
+
+.search-menu-fade {
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    opacity: 0;
+    pointer-events: auto;
+    position: fixed;
+    visibility: hidden;
+}
+
+.search-menu-fade.open {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+
+/*BODY*/
+.ellipsis {
+    overflow: hidden;
+    height: 111px;
+    line-height: 25px;
+}
+.ellipsis p {
+    font-size: 0.9em;
+    text-align: justify;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+.ellipsis:before {
+    content: "";
+    float: left;
+    width: 5px;
+    height: 111px;
+}
+.ellipsis > *:first-child {
+    float: right;
+    width: 100%;
+    margin-left: -5px;
+}
+.ellipsis:after {
+    content: "\02026";
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    float: right;
+    position: relative;
+    top: -25px;
+    left: 100%;
+    width: 3em;
+    margin-left: -3em;
+    padding-right: 5px;
+    text-align: right;
+    background-size: 100% 100%;/* 512x1 image,gradient for IE9. Transparent at 0% -> white at 50% -> white at 100%.*/
+    ￿background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAABCAMAAACfZeZEAAAABGdBTUEAALGPC/xhBQAAAwBQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wDWRdwAAAP90Uk5TgsRjMZXhS30YrvDUP3Emow1YibnM9+ggOZxrBtpRRo94gxItwLOoX/vsHdA2yGgL8+TdKUK8VFufmHSGgAQWJNc9tk+rb5KMCA8aM0iwpWV6dwP9+fXuFerm3yMs0jDOysY8wr5FTldeoWKabgEJ8RATG+IeIdsn2NUqLjQ3OgBDumC3SbRMsVKsValZplydZpZpbJOQco2KdYeEe36BDAL8/vgHBfr2CvTyDu8R7esU6RcZ5ecc4+Af3iLcJSjZ1ivT0S/PMs3LNck4x8U7wz7Bv0G9RLtHuEq1TbJQr1OtVqqnWqRdoqBhnmSbZ5mXapRtcJGOc4t2eYiFfH9AS7qYlgAAARlJREFUKM9jqK9fEGS7VNrDI2+F/nyB1Z4Fa5UKN4TbbeLY7FW0Tatkp3jp7mj7vXzl+4yrDsYoVx+JYz7mXXNSp/a0RN25JMcLPP8umzRcTZW77tNyk63tdprzXdmO+2ZdD9MFe56Y9z3LUG96mcX02n/CW71JH6Qmf8px/cw77ZvVzB+BCj8D5vxhn/vXZh6D4uzf1rN+Cc347j79q/zUL25TPrJMfG/5LvuNZP8rixeZz/mf+vU+Vut+5NL5gPOeb/sd1dZbTs03hBuvmV5JuaRyMfk849nEM7qnEk6IHI8/qn049hB35QGHiv0yZXuMdkXtYC3ebrglcqvYxoj1muvC1nDlrzJYGbpcdHHIMo2FwYv+j3QAAOBSfkZYITwUAAAAAElFTkSuQmCC);
+    background: -webkit-gradient(linear,left top,right top,
+        from(rgba(255,255,255,0)),to(white),color-stop(50%,white));
+        background: -moz-linear-gradient(to right,rgba(255,255,255,0),white 50%,white);
+        background: -o-linear-gradient(to right,rgba(255,255,255,0),white 50%,white);
+        background: -ms-linear-gradient(to right,rgba(255,255,255,0),white 50%,white);
+        background: linear-gradient(to right,rgba(255,255,255,0),white 50%,white);
+    }
+
+/*FOOTER*/
+div#footer div {
+    max-height: 84px;
+}
+
+#copyright p {display: inline;}
+
+/*-----------------------------------------------------MOBILE CSS--------------------------------------------*/
+@media screen and (max-width: 480px) {
+    .layer_wrapper {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .lay4 h2 {margin-bottom: 5px;}
+
+    .post img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .post_content {max-width: 52%; max-height: 111px; overflow: hidden;}
+
+    .lay4 p {
+        padding-bottom: 0;
+        padding-top: 0;
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0;
+    }
+
+    .ellipsis {height: 55px;}
+    .ellipsis p {font-size: 0.8316em; line-height: 1.3em; text-align: initial;}
+    .ellipsis:before{height: 59px;}
+
+    .single_metainfo i, .comm_date, .meta_comm, .auth_meta{display:none;}
+}
