@@ -32,12 +32,12 @@ global $optimizer;?>
                 </div>
             <!--LOGO END-->
 
-            <!--LOAD THE HEADER SEARCH BUTTON-->
+            <!--SEARCH BUTTON-->
                 <div class="search-toggle">
                     <img class="search-toggle-svg style-svg" src="<?= get_template_directory_uri(); ?>/assets/images/search.svg" alt="<?php _e( 'Search', '' ); ?>">
                     <div class="search_underline"></div>
                 </div>
-                <form role="search" method="get" id="menu-searchform" class="menu-searchform hide-menu-searchform" action="http://localhost:8888/tarotscope/">
+                <form role="search" method="get" id="menu-searchform" class="menu-searchform hide-menu-searchform" action="<?php bloginfo('home'); ?>">
                     <input type="text" id="s" class="inputStyle menu_searchInput" value="" placeholder="<?php _e('Search'); ?>..." name="s">
                     <input type="submit" id="searchsubmit" class="buttonStyle menu_submit" value="<?php _e('Search'); ?>">
                 </form>

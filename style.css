@@ -930,7 +930,7 @@ div#container {width: 70%;float: left;}
 @media screen and (max-width: 480px){
 	body .header_wrap .header, body.home.has_trans_header .header { position: relative!important; }
 	.site_boxed .header_wrap .header { max-width: 100%!important; }
-	#simple-menu{  text-shadow:0 0 2px rgba(0, 0, 0, 0.3); z-index:999;  top:5px; right:12px;}
+	#simple-menu{  text-shadow:0 0 2px rgba(0, 0, 0, 0.3); z-index:999;  top:14px; right:12px;}
 	.to_top{ left:20px; right:auto;}
 
 	.mobile_hide_footwdgt, .mobile_hide_slide, .mobile_hide_frontposts, .mobile_hide_frontposts, .mobile_hide_about, .mobile_hide_blocks, .mobile_hide_clients, .mobile_hide_frontwdgt, .mobile_hide_map, .mobile_hide_newsletter, .mobile_hide_testi, .mobile_hide_welcm, .mobile_hide_frontposts{ display:none!important;}
