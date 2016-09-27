@@ -432,7 +432,6 @@ body.is_boxed .stat_bg, body.is_boxed .stat_bg_overlay{ z-index:auto;}
 
 
 /*Layout 4*/
-
 .lay4{width:100%; float:left; padding:40px 0;}
 .lay4_wrap{overflow: hidden;width:68%; float:left; position:relative;}
 .lay4 .hentry{width: 100%;float: left;padding: 0px 20px 0 20px;margin: 20px 0;background: #fff; margin-bottom:20px; position:relative;box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;}
@@ -860,6 +859,7 @@ div#container {width: 70%;float: left;}
 	#topmenu{ display:none;}
 	#simple-menu{ display:block;}
 	#simple-menu.hide_mob_menu{ display:none;}
+	.site_boxed .layer_wrapper, body.home.site_boxed #slidera { margin:0!important; width: 100%!important; }
 	.touchon #topmenu{ display:none;}
 	.touchon #simple-menu{ display:block;}
 	.touchon .lay1 h2.postitle a{ font-size:18px; line-height:1.2em;}
@@ -882,6 +882,9 @@ div#container {width: 70%;float: left;}
 	.lay1 .hentry img{ transform:none!important;}
 	.lay4_wrap{width: 100%!important;}
 	.lay4pagifix{width:100%!important; }
+	.lay4 {padding:0;}
+	.home .lay4 { padding: 0; }
+	.lay4 .hentry {margin:0;}
 	.lay1.optimposts .type-product a.button.add_to_cart_button {display: block;position: relative;font-size: 12px!important;padding: 5px 10px;float: left;margin-bottom: 10px;width: 110px;}
 	.optimposts .lay1_wrap .type-product{ width:47%;}
 	.optimposts .lay2_wrap .type-product{ width:47%;}
@@ -929,7 +932,6 @@ div#container {width: 70%;float: left;}
 }
 @media screen and (max-width: 480px){
 	body .header_wrap .header, body.home.has_trans_header .header { position: relative!important; }
-	.site_boxed .header_wrap .header { max-width: 100%!important; }
 	#simple-menu{  text-shadow:0 0 2px rgba(0, 0, 0, 0.3); z-index:999;  top:14px; right:12px;}
 	.to_top{ left:20px; right:auto;}
 
@@ -979,10 +981,9 @@ div#container {width: 70%;float: left;}
 	.img_hover .icon_wrap {bottom: 20%!important;}
 
 	.lay1 .post_image:hover img, .lay2 .post_image:hover img, .lay3 .post_image:hover img{ -webkit-transform: initial;  -moz-transform: initial;  -o-transform: initial; -ms-transform: initial;  transform: initial;}
-	.home .lay4 { padding: 0; }
 	.lay4_wrap{width:100%!important;}
 	.lay4 .post_image{width:43%; max-height: 101px;}
-	.lay4 .single_metainfo {font-size: 0.8em; padding-bottom: 7px}
+	.lay4 .single_metainfo {font-size: 0.8em; padding-bottom: 3px}
 	.lay4 .post_content{width:100%!important;}
 	.lay4 .hentry{margin: 0 0 5px 0; padding: 0 15px 0 15px;}
 	#sidebar .widget{ width:100%; max-width:none!important; margin-bottom:0px;}
@@ -1027,17 +1028,13 @@ div#container {width: 70%;float: left;}
 
 
 @media screen and (max-width: 360px){
-	.site_boxed .layer_wrapper{width: 100%!important;float: none;margin:0!important;}
-		
 	.header{ height:auto;}
 	.logo h1, .logo h2{ float:none; text-align:center;}
 
 	.header2 .head_soc{width: 100%;text-align: center;}
 
-
 	body .lay2 .hentry, .lay3 .hentry{ width:94%!important; margin-bottom:15px; height:auto!important; padding:2%!important;}
-	body .lay4 .hentry{ width:90%!important;padding:5%!important;margin-bottom: 0;}
-	body .lay4 .post_image, .lay4 .post_content{ width:100%;}
+	body .lay4 .hentry{ margin-bottom: 0;}
 	.testi_content{ line-height:1.3em;}
 	.more-link, .moretag{ float:none; text-align:center;}
 
