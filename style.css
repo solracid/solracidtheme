@@ -443,7 +443,7 @@ body.is_boxed .stat_bg, body.is_boxed .stat_bg_overlay{ z-index:auto;}
 .lay4 h2{ margin:0; margin-bottom:15px;margin-top: 5px;}
 .lay4 p{ padding-bottom:20px;padding-top: 5px;line-height: 1.7em;}
 .lay4 .single_metainfo{ padding-bottom:9px;}
-.lay4 .single_metainfo, .lay4 .single_post .single_metainfo a{ font-size:0.8em;}
+.lay4 .single_metainfo, .lay4 .single_post .single_metainfo a{ font-size:0.8em; line-height: 1.3em}
 .lay4 #sidebar{ margin-top:20px;}
 .more-link, .moretag{ font-size:14px; padding:7px 15px; color:rgba(0, 0, 0, 0.2); display:block; margin:15px 0; float:right; position:relative; -webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;transition:all 0.2s ease-out;border: 2px solid rgba(0, 0, 0, 0.2);opacity: 0.5;font-weight: bold;border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;}
 .thn_post_wrap .more-link:hover, .moretag:hover{  opacity:1;}
